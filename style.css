@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+header {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+
+a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.875px;
+  text-align: center;
+}
+
+button {
+  margin-left: 25px;
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  border: solid 1px #4cb538;
+  background: #4cb538;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 70px;
+}
+
+img {
+  width: 450px;
+}
+
+.conteudo {
+  margin-left: 50px;
+}
+
+h1 {
+  width: 80%;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: 0.5961538553237915px;
+  text-align: left;
+  color: #161a49;
+  margin-bottom: 20px;
+}
+
+p {
+  width: 65%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-bottom: 15px;
+  color: #4b505a;
+}
+
+.conteudo a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 1px;
+  color: #6fbf44;
+  padding: 0;
+}
+
+@media (max-width: 1100px) {
+  nav {
+    display: none;
+  }
+
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+  }
+
+  main {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .img {
+    position: absolute;
+    margin-top: 350px;
+  }
+
+  img {
+    width: 312px;
+    height: 288px;
+  }
+
+  .conteudo {
+    width: 85%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.5961538553237915px;
+    text-align: center;
+  }
+
+  p {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: center;
+  }
+}
